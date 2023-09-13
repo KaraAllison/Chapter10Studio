@@ -16,7 +16,9 @@ public class SkillsController {
                 "<li>Java</li>" +
                 "<li>JavaScript</li>" +
                 "<li>C++</li>" +
-                "</ol>";
+                "</ol>" +
+                "</body>" +
+                "</html>";
     }
     @GetMapping("form")
     public String formPage() {
